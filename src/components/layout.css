@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+:root{
+  --primary-font: 'Epilogue', sans-serif;
+  --secondary-font: 'Rubik', sans-serif;
+  --tersier-font: 'Poppins', sans-serif;
+  --primary-color: #1b1b1b;
+  --secondary-color: #37e25f;
+  --text-color1: #e2e1eb;
 }

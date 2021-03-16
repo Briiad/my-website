@@ -36,15 +36,15 @@ const Navigation = () => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#141414" }}>
+      <IconContext.Provider value={{ color: "#e2e1eb" }}>
         <Nav active={Scroll} click={click} >
           <NavbarContainer>
             <NavLogo>
               <NavIcon />
-                BRAYEN
+                BRIAN ADITYA
             </NavLogo>
             <MobileIcon onClick={handleClick}>
-              {click ? <FaTimes /> : <FaBars />}
+              {click ? <FaTimes style={{ color: "#37e25f" }} /> : <FaBars />}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click} >
               <NavItem>
