@@ -84,6 +84,9 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
    height: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
    @media screen and (max-width: 960px) {
       width: 100%;
@@ -110,4 +113,7 @@ export const NavLinks = styled(Link)`
          transition: all 0.2s ease;
       }
    }
+`
+export const Span = styled.span`
+   color: var(--secondary-color);
 `

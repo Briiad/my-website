@@ -8,6 +8,7 @@ export const LandingPage = styled.div`
    background-color: var(--primary-color);
    display: flex;
    align-items: center;
+   justify-content: space-around;
    padding: 4rem 10rem;
 
    @media screen and (max-width:  960px){
@@ -16,10 +17,11 @@ export const LandingPage = styled.div`
    }
 
    @media screen and (max-width: 400px){
-      width: 100%;
-      height: 100%;
-      font-size: 0.5rem;
+      font-size: 0.75rem;
+      padding: 1rem;
+      text-align: center;
       flex-direction: column;
+      justify-content: space-around;
    }
 `
 
@@ -29,6 +31,10 @@ export const Intro = styled.div`
    flex-direction: column;
    font-family: var(--primary-font);
    color: var(--text-color1);
+
+   @media screen and ( max-width: 400px){
+      width: 100%;
+   }
 `
 
 export const Span = styled.span`
@@ -52,5 +58,10 @@ export const Image = styled.img`
    @media screen and (max-width: 960px){
       width: 300px;
       height: 300px;
+   }
+
+   @media screen and (max-width: 400px){
+      width: 150px;
+      height: 150px;
    }
 `
